@@ -78,45 +78,12 @@ body {
 }
 
 
-@media (max-width: 1200px) {
-   .burger {
-      display: flex;
-   }
 
-   .menu {
-      display: none;
-      flex-direction: column;
-      padding: 10px;
-      position: absolute;
-      top: 90px;
-      left: 0;
-      width: 100%;
-      text-align: center;
-   }
-
-   .menu li {
-      margin-bottom: 10px;
-   }
-
-   .menu li:last-child {
-      margin-bottom: 0;
-   }
-
-   .menu li a {
-      color: #fff;
-      text-decoration: none;
-   }
-
-   .menu.active {
-      display: flex;
-   }
-}
 
 .adventure {
    font-family: 'Museo';
    font-weight: 700;
    color: #fff;
-
 }
 
 h1 {
@@ -135,6 +102,7 @@ h3 {
    background: linear-gradient(to right, #FFFFFF 0%, #FF1A16 33%, #CF1512 66%);
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
+
 }
 
 .flex_row {
@@ -267,4 +235,106 @@ h3 {
 
 .card_grid:hover {
    opacity: 1;
+}
+
+
+
+@media (max-width: 1440px) {
+   .burger {
+      display: flex;
+   }
+
+   .menu {
+      display: none;
+      flex-direction: column;
+      padding: 10px;
+      position: absolute;
+      top: 90px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+   }
+
+   .menu li {
+      margin-bottom: 10px;
+   }
+
+   .menu li:last-child {
+      margin-bottom: 0;
+   }
+
+   .menu li a {
+      color: #fff;
+      text-decoration: none;
+   }
+
+   .menu.active {
+      display: flex;
+   }
+
+   .cards {
+      margin-left: 20%;
+      column-gap: 30px;
+   }
+
+   .card_grid {
+      opacity: 1;
+   }
+}
+
+@media (max-width: 1140px) {
+   .burger {
+      display: flex;
+   }
+
+   .menu {
+      display: none;
+      flex-direction: column;
+      padding: 10px;
+      position: absolute;
+      top: 90px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+   }
+
+   .menu li {
+      margin-bottom: 10px;
+   }
+
+   .menu li:last-child {
+      margin-bottom: 0;
+   }
+
+   .menu li a {
+      color: #fff;
+      text-decoration: none;
+   }
+
+   .menu.active {
+      display: flex;
+   }
+
+   .flex_row {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .cards {
+      margin: 150px 0px 0px 0px;
+   }
+
+   .button {
+      margin-left: 150px;
+   }
+
+   .adventure>h1,
+   .adventure>h3 {
+      background: #FFFFFF;
+      background: linear-gradient(to right, #FFFFFF 0%, #FFFFFF 33%, #FFFFFF 66%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-align: center;
+   }
 }
