@@ -322,11 +322,11 @@ h3 {
    }
 
    .cards {
-      margin: 150px 0px 0px 0px;
+      margin: 0px 0px 0px 0px;
    }
 
    .button {
-      margin-left: 150px;
+      margin: 15vh auto;
    }
 
    .adventure>h1,
@@ -336,5 +336,9 @@ h3 {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       text-align: center;
+   }
+
+   .adventure>h1 {
+      font-size: 55px;
    }
 }
